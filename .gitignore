@@ -1,0 +1,25 @@
+# Ignore change_your_app_name directory or file
+change_your_app_name/
+change_your_app_name
+
+# Python-specific ignores
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+env/
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Pulumi-specific ignores
+.pulumi/
+*.pyc
+
+# Miscellaneous
+.DS_Store
+*.log
